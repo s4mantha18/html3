@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ main{
+    display: grid;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: var(--white);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.95fr;
+    gap: 25px;
+    padding: 20px;
+}
+main div{
+    border-radius: 12px;
+    font-family: Agbalumo;
+}
+.danielimg{
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid rgb(236, 180, 243);
+    padding: 20px;
+    margin: 20px 0px 0px 28px;
+    background-image: url(image-daniel.jpg) ;
+    background-origin: border-box;
+    width: 20px;
+    height: 20px;
+}
+.kiraimage{
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid white;
+    padding: 20px;
+    margin: 20px 0px 0px 28px;
+    background-image: url(image-kira.jpg);
+    background-origin: border-box;
+}
+.jonathanimage{
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid white;
+    padding: 20px;
+    margin: 20px 0px 0px 28px;
+    background-image: url(image-jonathan.jpg);
+    background-origin: border-box;
+}
+.patrickimg{
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid rgb(77, 9, 68);
+    padding: 20px;
+    margin: 20px 0px 0px 28px;
+    background-image: url(image-patrick.jpg);
+    background-origin: border-box;
+}
+.jeanetteimg{
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid white;
+    padding: 20px;
+    margin: 20px 0px 0px 28px;
+    background-image: url(image-jeanette.jpg);
+    background-origin: border-box;
+}
+.griditem1{
+    background-color: purple;
+    grid-area: 1/1/2/3;
+}
+.griditem3{
+    background-color: #49556d;
+    grid-area: 1/3/2/4;
+}
+.griditem4{
+    background-color: #181e2c;
+    grid-area: 2/2/3/4;
+}
+.griditem2{
+    background-color: #ffffff;
+    grid-area: 1/4/3/5;
+    box-shadow: 3px 3px 10px grey;
+}
+.griditem5{
+    background-color: white;
+    grid-area: 2/1/3/2;
+    box-shadow: 3px 3px 10px grey;
+}
+.fa-quote-left{
+    color: rgba(221, 160, 221, 0.596);
+    font-size: 12rem;
+    position: absolute;
+    margin: -35px 0px 0px 380px ;
+    }
+p{
+    color: grey;
+    position: absolute;
+    margin: 45px 0px 0px 90px;
+    font-size:small ;
+}
+.daniel{
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    margin: 25px 0px 0px 90px;
+}
+.Kira{
+    color: #4b4c4d;
+    position: absolute;
+    margin: 25px 0px 0px 90px;
+}
+.jonathan{
+    color: white;
+    position: absolute;
+    margin: 25px 0px 0px 90px;
+}
+.patrick{
+    color: white;
+    position: absolute;
+    margin: 25px 0px 0px 90px;
+}
+.jeanette{
+    color: black;
+    position: absolute;
+    margin: 25px 0px 0px 90px;
+}
+.info{
+    color: white;
+    font-family: sans-serif;
+    position: absolute;
+    margin: 80px 0px 0px 30px;
+    font-size: 19px;
+}
+.kirainfo1{
+    color: rgb(63, 62, 62);
+    font-family: sans-serif;
+    position: absolute;
+    margin: 90px 0px 0px 30px;
+}
+.patrickinfo1{
+    color: white;
+    font-family: sans-serif;
+    position: absolute;
+    margin: 70px 0px 0px 30px;
+    font-size: 15px;
+}
+.jeanetteinfo1{
+    color: rgb(63, 62, 62);
+    font-family: sans-serif;
+    position: absolute;
+    margin: 80px 0px 0px 30px;
+    font-size: 14px;
+}
+.jonathaninfo1{
+    color: white;
+    font-family: sans-serif;
+    position: absolute;
+    margin: 80px 0px 0px 30px;
+    font-size: 15px;
+}
+.info2{
+    color: rgba(200, 160, 221, 0.521);
+    position: absolute;
+    margin: 140px 0px 0px 30px;
+    font-size: 10px;
+}
+.kirainfo2{
+    color: grey;
+    position: absolute;
+    margin: 170px 0px 0px 30px;
+    font-size: 11px;
+}
+.jonathaninfo2{
+    color: whitesmoke;
+    position: absolute;
+    margin: 140px 0px 0px 30px;
+    font-size: 12px;
+}
+.jeanetteinfo2{
+    color: grey;
+    position: absolute;
+    margin: 140px 0px 0px 30px;
+}
+.patrickinfo2{
+    color: rgb(190, 190, 190);
+    position: absolute;
+    margin: 130px 0px 0px 30px;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 700px) {
+    main{
+        display: grid;
+        height: fit-content;
+        background-color: white;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 2.5fr 1fr 0.8fr 2fr 2.5fr;
+    }
+
+    .griditem1{
+        grid-area: 1/1/2/2;
+    }
+
+    .griditem2{
+        grid-area: 5/1/6/2;
+    }
+
+    .griditem3{
+        grid-area: 2/1/3/2;
+    }
+
+    .griditem4{
+        grid-area: 4/1/5/2;
+    }
+
+    .griditem5{
+        grid-area: 5/1/6/3;
+    }
+} */
+
+

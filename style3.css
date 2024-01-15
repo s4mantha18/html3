@@ -1,0 +1,36 @@
+.firstheading{
+    font-family: serif;
+    font-weight: 900;
+    color: rgb(196, 164, 132);
+    padding-left: 90px;
+}
+
+h1{
+    padding-left: 210px;
+}
+
+table{
+    padding-left: 290px;
+}
+
+th{
+    padding-right: 60px;
+}
+
+.dropdown2{
+    width: 100px;
+    height: 20px;
+}
+
+div{
+    background-color: rgb(75, 37, 9);
+    color: white;
+    padding: 0 20px;
+    height: 200px;
+    width: 10000px;
+    padding-top: 50px;
+}
+a{
+    color: white;
+}
+

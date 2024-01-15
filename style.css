@@ -1,0 +1,44 @@
+h1{
+    line-height: 0.5;
+}
+
+p{
+    line-height: 0.5;
+}
+
+h1{
+    font-weight: normal;
+}
+
+.red{
+    color: red;
+}
+
+span{
+    color: green;
+}
+
+.text-underlined{
+    text-decoration: underline;
+}
+
+.backgroundchange{
+    background-color: black;
+    color: white;
+    
+}
+
+.backgroundchange{
+    border-color: black;
+}
+
+tr{
+    line-height: 1;
+}
+
+td{
+    padding-right: 60px;
+}
+
+
+

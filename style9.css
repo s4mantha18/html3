@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.arc-shape {
+    width: 500px;
+    height: 190px;
+    background-color: red;
+    border-top-left-radius: 500px; 
+    border-top-right-radius: 500px; 
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    box-shadow: 0px 0px 11px 0px inset black;
+  }
+  
+  .arc-shape2{
+    width: 390px;
+    height: 190px;
+    background-color: white;
+    border-top-left-radius: 500px ;
+    border-top-right-radius: 500px;
+    position: absolute;
+    top: 30%;
+    left: 59px; 
+  }
+
+  .arc-shape3{
+    width: 500px;
+    height: 190px;
+    background-color: rgb(255, 0, 0);
+    box-shadow: 0px 0px 10px 0px inset black;
+    border-bottom-left-radius: 500px ;
+    border-bottom-right-radius: 500px;
+    position: absolute;
+    top: 70%;
+    left: 35%; 
+  }
+
+  .arc-shape4{
+    width: 390px;
+    height: 190px;
+    background-color: white;
+    border-bottom-left-radius: 500px ;
+    border-bottom-right-radius: 500px;
+    position: absolute;
+    top: -30%;
+    left: 59px; 
+  }
+
+.rectangle{
+    width: 300px;
+    height: 210px;
+    background-color: yellow;
+    position: absolute;
+    top: 35%;
+    left: 41.5%;
+}
+.triangle{
+    border-top: 150px solid yellow;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    position: absolute;
+    top: 100%;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: absolute;
+    top: 50%;
+    left: 33%;
+}
+
+.circle2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: absolute;
+    top: 50%;
+    left: 63%;
+}

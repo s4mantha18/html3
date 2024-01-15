@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.circle1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+.circle2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+
+.triangle{
+    width: 334px;
+    height: 200px;
+    background-color: red;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+    position: absolute;
+    top: 60%;
+    left: 653px;
+}
+
+main{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+
+}

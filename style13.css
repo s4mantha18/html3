@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-user{
+    font-size: 20rem;
+    position: absolute;
+    top: 90px;
+}
+
+.infobox{
+    width: 350px;
+    height: 200px;
+    background-color: grey;
+    border-radius: 25px;
+    position: absolute;
+    top: 450px;
+    left: 620px;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-left: 20px;
+    line-height: 50px;
+}
+
+.triangle{
+    width: 200px;
+    height: 100px;
+    background-color: grey;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    -path: polygon(50% 0%, 0% 100%, 100% 100%); 
+    position: absolute;
+    top: 420px;
+    left: 690px;
+}
+
+.triangleplusinfo{
+    display: none;
+}
+
+.fa-user:hover ~.triangleplusinfo{
+    display: block;
+}
